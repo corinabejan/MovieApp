@@ -1,0 +1,27 @@
+.navigation {
+  align-items: center;
+  font-weight: bold;
+}
+
+.home {
+  margin-right: 10px;
+}
+
+.home:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.about {
+  margin-right: 10px;
+}
+
+.about:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.discover:hover {
+  color: red;
+  cursor: pointer;
+}
