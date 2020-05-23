@@ -11,7 +11,7 @@ export default function DiscoverMoviesPage() {
     results: [],
     selected: {},
   });
-  const apiurl = "http://www.omdbapi.com/?apikey=dfe6d885";
+  const apiurl = "https://www.omdbapi.com/?apikey=dfe6d885";
 
   const search = (e) => {
     if (e.key === "Enter") {
