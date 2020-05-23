@@ -1,18 +1,21 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Switch, Route, NavLink } from "react-router-dom";
-import NavBar from './components/NavBar/NavBar';
+import { Switch, Route } from "react-router-dom";
+import NavBar from './components/components/NavBar';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import DiscoverMoviesPage from './pages/DiscoverMoviesPage';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-        {/* <Switch>
+        <Switch>
           <Route path="/discover" component={DiscoverMoviesPage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/" component={HomePage} />
-        </Switch> */}
+        </Switch>
     </div>
   );
 }
